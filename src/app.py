@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from predict import CreditRiskPredictor
+from src.predict import CreditRiskPredictor
 
 # Initialize app and predictor
 app = FastAPI(title="Credit Risk Prediction API")
